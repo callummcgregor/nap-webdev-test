@@ -15,7 +15,7 @@ var routes = {
                     title: 'NAP Tech Test',
                     layout: 'layouts/default',
                     template: 'index',
-                    products: body
+                    products: JSON.parse(body)
                 });
             });
         });
