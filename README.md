@@ -6,9 +6,9 @@ Instead I saw this as an opportunity to learn about Node, which has, until now, 
 
 I began by researching Node and practicing with a few tutorials. While perhaps not necessary to complete the programming task, this gave context that proved quite helpful.
 
-After familiarising myself with Node I began on the actual development task. The results may not be particularly pretty, or even functional, but much was learnt in the process about a technology which was completely foreign to me until 2 days ago.
+After familiarising myself with Node I began on the actual development task. During this phase I was also introduced to Handlebars and Bootstrap, which I found interesting and ultimately helpful in achieving my end goal. The results may not be particularly pretty, or even functional, but much was learnt in the process about a technology which was completely foreign to me until 2 days ago.
 
-Attached is an Excel spreadsheet with a brief summary of the hours I spent on this.
+Also included is an Excel spreadsheet with a brief summary of the hours I spent on this.
 
 # NAP Tech Web Dev Test
 
