@@ -1,28 +1,30 @@
 {{!< default}}
 <div class="container">
-	<h1>NAP TECH TEST</h1>
-	<p>Create a <u>categloue</u> <u>expirence</u> using two sample product APIs.</p>
-	<h2>Product lists</h2>
+	<h1 style="text-align: center">What's New</h1>
+	<h2>Products List <small>{{products.total}} results</small></h2>
 
-    <div class="row">
-        {{#everyNth products.data 3}}
-            {{#if isModZeroNotFirst}}
+    <div class="container">
+        <div class="row">
+            {{#everyNth products.data 3}}
+                {{#if isModZeroNotFirst}}
+                    </div>
+                {{/if}}
+
+                {{#if isModZero}}
+                    <div class="row">
+                {{/if}}
+
+                <div class="col-xs-4 col-sm-4">
+                    <img src="{{image.outfit}}" style="display: block; margin-left: auto; margin-right: auto;" />
+                    <h5>{{ designer }}</h5>
+                    <p>{{ name }}</p>
+                    <p>{{ price }}</p>
                 </div>
-            {{/if}}
 
-            {{#if isModZero}}
-                <div class="row">
-            {{/if}}
-
-            <div class="col-md-1">
-                <img src="{{image.outfit}}"/>
-                <br/>
-                {{ name }}
-            </div>
-
-            {{#if isLast}}
-            </div>
-            {{/if}}
-        {{/everyNth}}
+                {{#if isLast}}
+                </div>
+                {{/if}}
+            {{/everyNth}}
+        </div>
     </div>
 </div>
