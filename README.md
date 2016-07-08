@@ -1,3 +1,15 @@
+# Foreword
+
+I have no previous experience using Node.js and therefore did not expect to be able to deliver a high quality product in this test.
+
+Instead I saw this as an opportunity to learn about Node, which has, until now, been a gap in my technical knowledge.
+
+I began by researching Node and practicing with a few tutorials. While perhaps not necessary to complete the programming task, this gave context that proved quite helpful.
+
+After familiarising myself with Node I began on the actual development task. The results may not be particularly pretty, or even functional, but much was learnt in the process about a technology which was completely foreign to me until 2 days ago.
+
+Attached is an Excel spreadsheet with a brief summary of the hours I spent on this.
+
 # NAP Tech Web Dev Test
 
 This is a chance for you to show us how you think we should display our products.
