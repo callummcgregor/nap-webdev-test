@@ -8,6 +8,7 @@ var routes = {
         app.get('/', function (req, res, next) {
             
             request('http://127.0.0.1:3000/api/products', function(error, response, body) {
+                console.log(body);
                 res.render('index', {
                     metadata: {
                         title: 'NAP Tech Test'
