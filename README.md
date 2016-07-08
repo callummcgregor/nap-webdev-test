@@ -1,12 +1,10 @@
 # Foreword
 
-I have no previous experience using Node.js and therefore did not expect to be able to deliver a high quality product in this test.
+Not having any previous experience using Node.js I saw this as an opportunity to learn about something that has, until now, been a gap in my technical knowledge.
 
-Instead I saw this as an opportunity to learn about Node, which has, until now, been a gap in my technical knowledge.
+I began by researching Node and practicing with a few tutorials. While perhaps not necessary to complete the programming task, this provided context that proved quite helpful.
 
-I began by researching Node and practicing with a few tutorials. While perhaps not necessary to complete the programming task, this gave context that proved quite helpful.
-
-After familiarising myself with Node I began on the actual development task. During this phase I was also introduced to Handlebars and Bootstrap, which I found interesting and ultimately helpful in achieving my end goal. The results may not be particularly pretty, or even functional, but much was learnt in the process about a technology which was completely foreign to me until 2 days ago.
+After familiarising myself with Node I began on the actual development task. During this phase I was introduced to Handlebars and Bootstrap, which I found interesting and ultimately helpful in achieving my end goal. The end results of my test may not be particularly pretty, or even functional, but much was learnt in the process about a technology which was completely foreign to me until 2 days ago.
 
 Also included is an Excel spreadsheet with a brief summary of the hours I spent on this.
 
