@@ -6,18 +6,23 @@ var hbs = require('express-hbs');
 var expressParams = require('express-params');
 var _ = require('underscore');
 
-hbs.registerHelper('everyNth', function(context, every, options) {
+/**
+ * Custom helper to count every nth item from the array of data
+ *
+ * This was before I know that I could use Bootstrap to do this for me... but still a fun learning exercise!
+ */
+hbs.registerHelper('everyNth', function(data, n, options) {
     var fn = options.fn;
     var inverse = options.inverse;
     var ret = '';
 
-    if (context && context.length > 0) {
-        for (var i = 0, j = context.length; i < j; i++) {
-            var modZero = i % every === 0;
-            ret = ret + fn(_.extend({}, context[i], {
+    if (data && data.length > 0) {
+        for (var i = 0, j = data.length; i < j; i++) {
+            var modZero = i % n === 0;
+            ret = ret + fn(_.extend({}, data[i], {
                 isModZero: modZero,
                 isModZeroNotFirst: modZero && i > 0,
-                isLast: i === context.length - 1
+                isLast: i === data.length - 1
             }));
         }
     } else {

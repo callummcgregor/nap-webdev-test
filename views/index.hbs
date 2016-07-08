@@ -4,25 +4,25 @@
 	<p>Create a <u>categloue</u> <u>expirence</u> using two sample product APIs.</p>
 	<h2>Product lists</h2>
 
-    <table style="width: 100%">
+    <div class="row">
         {{#everyNth products.data 3}}
             {{#if isModZeroNotFirst}}
-                </tr>
+                </div>
             {{/if}}
 
             {{#if isModZero}}
-                <tr>
+                <div class="row">
             {{/if}}
 
-            <td>
+            <div class="col-md-1">
                 <img src="{{image.outfit}}"/>
                 <br/>
                 {{ name }}
-            </td>
+            </div>
 
             {{#if isLast}}
-            </tr>
+            </div>
             {{/if}}
         {{/everyNth}}
-    </table>
+    </div>
 </div>
